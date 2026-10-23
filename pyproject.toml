@@ -6,3 +6,8 @@ authors = [{ name = "Pat Escalona" }]
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "nbstripout>=0.8.2",
+]

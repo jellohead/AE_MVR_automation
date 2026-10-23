@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# macOS / editors
+.DS_Store
+.idea/workspace.xml
+
+# Survey data, templates and deliverables live on OneDrive, never in git
+# (raw .sav with respondent PII, .sps and .pptx were purged from history 2026-10-23)
+*.sav
+*.sps
+*.spv
+*.pptx
+*.potx
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.pdf
+*.docx
+src/AE_MVR_automation/resources/*
+!src/AE_MVR_automation/resources/__init__.py
+src/AE_MVR_automation/output/*
+!src/AE_MVR_automation/output/__init__.py
+~$*
+
+# Runtime logs
+*.log
